@@ -67,9 +67,15 @@
     width: 110px;
     font-size: 12;
     cursor: pointer;
+    transition: opacity 0.15s;
   }
+
+  .uber:hover {
+    opacity: 0.8;
+  }
+
   .amazon {
-    background-color: rgb(255, 216, 20);
+    background-color: rgb(255, 212, 20);
     border: none;
     height: 30px;
     width: 160px;
@@ -77,6 +83,11 @@
     font-size: 12;
     cursor: pointer;
   }
+
+  .amazon:hover {
+    background-color: rgb(255, 200, 20);
+  }
+
   .github {
     background-color: rgb(46, 164, 79);
     color: white;
@@ -88,7 +99,14 @@
     font-size: 12;
     letter-spacing: 0.01px;
     cursor: pointer;
+    transition: box-shadow 0.15s, background-color 0.15s;
   }
+
+  .github:hover {
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: rgb(16, 174, 89);
+  }
+
   .bootS {
     background-color: rgb(121, 82, 179);
     color: white;
@@ -101,7 +119,13 @@
     letter-spacing: 0.01px;
     margin-right: 5px;
     cursor: pointer;
+    transition: background-color 0.15s;
   }
+
+  .bootS:hover {
+    background-color: rgb(101, 62, 159)
+  }
+
   .bootD {
     background-color: white;
     color: rgb(108, 117, 125);
@@ -115,7 +139,14 @@
     font-size: 10;
     letter-spacing: 0.01px;
     cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
   }
+
+  .bootD:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+
   .linkedA {
     background-color: rgb(10, 102, 194);
     color: white;
@@ -128,7 +159,13 @@
     letter-spacing: 0.01px;
     cursor: pointer;
     margin-right: 5px;
+    transition: background-color 0.15s;
   }
+
+  .linkedA:hover {
+    background-color: rgb(6, 39, 152)
+  }
+
   .linkedS {
     background-color: white;
     color: rgb(10, 102, 194);
@@ -141,12 +178,23 @@
     font-weight: bold;
     font-size: 11;
     cursor: pointer;
-
+    transition: border-width 0.15s;
   }
+
+  .linkedS:hover {
+    border-width: 2px;
+  }
+
   .aLink {
     font-size: 12;
     color: rgb(0, 133, 133);
+    transition: color 0.15s;
   }
+
+  .aLink:hover {
+    color: orange;
+  }
+
   .aPrice {
     color: rgb(0, 118, 0);
     font-weight: bold;
@@ -166,7 +214,17 @@
     font-size: 12;
     cursor: pointer;
     margin-right: 5px;
+    transition: background-color 0.1s, opacity 0.1s;
   }
+
+  .aCart:hover {
+    background-color: rgb(240, 201, 5)
+  }
+
+  .aCart:active {
+    opacity: 0.7;
+  }
+
   .aBuy {
     background-color: rgb(255, 164, 28);
     border: none;
@@ -175,6 +233,15 @@
     border-radius: 13px;
     font-size: 12;
     cursor: pointer;
+    transition: background-color 0.1s, opacity 0.1s;
+  }
+
+  .aBuy:hover {
+    background-color: rgb(240, 149, 13);
+  }
+
+  .aBuy:active {
+    opacity: 0.7;
   }
 </style>
 
