@@ -1,0 +1,344 @@
+.subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    margin-left: 20px;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+
+.subscribe-button:hover {
+    opacity: 0.8;
+}
+
+.subscribe-button:active {
+    opacity: 0.5;
+}
+
+.join {
+    background-color: white;
+    border-color: rgb(54, 54, 214);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(54, 54, 214);
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-right: 15px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join:hover {
+    background-color: rgb(54, 54, 214);
+    color: white;
+}
+
+.join:active {
+    opacity: 0.7;
+}
+
+.tweet {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: none;
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 12;
+    cursor: pointer;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+
+.tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.uber {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 12;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    transition: opacity 0.15s;
+}
+
+.uber:hover {
+    opacity: 0.8;
+}
+
+.amazon {
+    background-color: rgb(255, 212, 20);
+    border: none;
+    height: 30px;
+    width: 160px;
+    border-radius: 15px;
+    font-size: 12;
+    cursor: pointer;
+}
+
+.amazon:hover {
+    background-color: rgb(255, 200, 20);
+}
+
+.github {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 85px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 12;
+    letter-spacing: 0.01px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, background-color 0.15s;
+}
+
+.github:hover {
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: rgb(16, 174, 89);
+}
+
+.bootS {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    height: 30px;
+    width: 95px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 10;
+    letter-spacing: 0.01px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.bootS:hover {
+    background-color: rgb(101, 62, 159)
+}
+
+.bootD {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    width: 95px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 10;
+    letter-spacing: 0.01px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.bootD:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedA {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 11;
+    letter-spacing: 0.01px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-right: 5px;
+    transition: background-color 0.15s;
+}
+
+.linkedA:hover {
+    background-color: rgb(6, 39, 152)
+}
+
+.linkedS {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 11;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-right: 9px;
+    padding-bottom: 4px;
+    padding-left: 9px;
+    margin-left: 5px;
+    transition: border-width 0.15s, padding-top 0.15s, padding-right 0.15s, padding-bottom 0.15s, padding-left 0.15s;
+}
+
+.linkedS:hover {
+    border-width: 2px;
+    padding-top: 3px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+}
+
+.aLink {
+    font-size: 12;
+    color: rgb(0, 133, 133);
+    transition: color 0.15s;
+}
+
+.aLink:hover {
+    color: orange;
+}
+
+.aPrice {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 12;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.aDescription {
+    font-size: 12;
+}
+
+.aCart {
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 26px;
+    width: 110px;
+    border-radius: 13px;
+    font-size: 12;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.1s, opacity 0.1s;
+}
+
+.aCart:hover {
+    background-color: rgb(240, 201, 5)
+}
+
+.aCart:active {
+    opacity: 0.7;
+}
+
+.aBuy {
+    background-color: rgb(255, 164, 28);
+    border: none;
+    height: 26px;
+    width: 110px;
+    border-radius: 13px;
+    font-size: 12;
+    cursor: pointer;
+    transition: background-color 0.1s, opacity 0.1s;
+}
+
+.aBuy:hover {
+    background-color: rgb(240, 149, 13);
+}
+
+.aBuy:active {
+    opacity: 0.7;
+}
+
+.PB {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.nPage {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.PN {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
+.stretchB {
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    transition: padding 0.5s;
+}
+
+.stretchB:hover {
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+
+.shadowB {
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    transition: margin 0.15s, box-shadow 0.15s;
+}
+
+.shadowB:active {
+    margin-top: 2px;
+    margin-left: 2px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.MarginAPadding {
+    background-color: green;
+    color: white;
+    border: none;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: padding 0.2s, margin 0.2s;
+}
+
+.MarginAPadding:hover {
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
