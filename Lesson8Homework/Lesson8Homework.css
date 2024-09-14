@@ -1,0 +1,94 @@
+.a8Name{
+  display: block;
+  margin-bottom: 5px;
+}
+.b8Para {
+  display: inline-block;
+  width: 250px;
+  vertical-align: middle;
+}
+.c8Gimg {
+  width: 250px;
+  margin-left: 350px;
+  display: block;
+}
+.g8txt {
+  width: 800px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  padding-left: 15px;
+  margin-left: 74px;
+  border-style: hidden;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.d8Name {
+  height: 30px;
+  width: 120px;
+  padding-left: 10px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.d8Email {
+  display: block;
+  height: 30px;
+  width: 260px;
+  padding-left: 10px;
+  border-color: lightgray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.d8Button {
+  background-color: rgb(65, 120, 238);
+  color: white;
+  font-weight: bold;
+  border-width: 0px;
+  height: 35px;
+  width: 275px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.e8Title {
+  font-family: Arial;
+  font-size: 40px;
+}
+.e8Input {
+  display: block;
+  font-size: 14px;
+  padding-right: 137px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  border-width: 0px;
+}
+.e8B1 {
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  font-size: 15px;
+  border-width: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.e8B2 {
+  background-color: white;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  border-width: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
