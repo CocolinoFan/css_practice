@@ -1,0 +1,188 @@
+.flex1 {
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.flex3 {
+    border-radius: 1px;
+    border-style: solid;
+    border-color: gray;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.div11 {
+    width: 200px;
+    background-color: lightblue;
+}
+.div12 {
+    width: 75px;
+    background-color: lightseagreen;
+}
+.div21{
+    background-color: lightblue;
+    width: 50px;
+}
+.div22 {
+    background-color: lightseagreen;
+    flex: 1;
+}
+.div23 {
+    background-color: lightcoral;
+    width: 75px;
+}
+.div31 {
+    background-color: lightblue;
+}
+.div32 {
+    background-color: lightseagreen;
+}
+.div33{
+    background-color: lightgreen;
+}
+.div34 {
+    background-color: lightcoral;
+}
+.div41{
+    background-color: lightblue;
+}
+.div42{
+    background-color: lightseagreen;
+}
+.container1 {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.082);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 500;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.name {
+    flex: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.number {
+    background-color: rgb(77, 77, 235);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 13px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 500px;
+}
+.profileImage {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+.details {
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.detailsName {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.detailsClass {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: gray;
+}
+.detailsPopular{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: gray;
+}
+.button {
+    border-width: 0px;
+    background-color: rgb(69, 69, 226);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(117, 33, 138);
+    color: white;
+    font-family: Arial;
+    font-size: 16px;
+}
+.topbarHome{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.topbarText{
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 26px;
+    border-radius: 14px;
+    border-width: 0px;
+    padding-left: 20px;
+}
+.topbarDownload{
+    margin-right: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(117, 33, 138);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
