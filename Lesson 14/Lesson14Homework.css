@@ -1,0 +1,166 @@
+h2 {
+  color: white;
+}
+
+.bottom-right {
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.right-sidebar{
+  background-color: green;
+  color: white;
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+}
+
+.interasting-choice {
+  background-color: lightseagreen;
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.modal {
+  background-color: white;
+  width: 500px;
+  height: 130px;
+  border-radius: 10px;
+  padding: 13px;
+}
+
+.ModalTitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.FacebookHeader {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.FacebookImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.FacebookName {
+  flex: 1;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.FacebookFriend {
+  background-color: rgb(66, 103, 178);
+  color: white;
+  border-width: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.FacebookMessage {
+  background-color: rgb(233, 233, 233);
+  border-width: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.DiscordImages {
+  position:fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65px;
+  left: 0px;
+  bottom: 0px;
+  top: 60px;
+  background-color: rgb(26, 26, 26);
+}
+
+.DiscordImage {
+  object-fit: cover;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 15px;
+}
+
+.DiscordINFO {
+  position: fixed;
+  left: 65px;
+  top: 60px;
+  bottom: 0px;
+  width: 200px;
+  background-color: rgb(48, 48, 48);
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: Arial;
+}
+
+.DiscordINFOflex {
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.DiscordINFOflexINFO {
+  color: white;
+  flex: 1;
+}
+
+.DiscordINFOflexPLus {
+  color: gray;
+  font-size: 20px;
+}
+
+.DiscordRoom {
+  color: gray;
+}
