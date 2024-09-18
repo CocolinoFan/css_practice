@@ -100,3 +100,76 @@ p {
   font-size: 15px;
   color: rgb(148, 147, 147);
 }
+
+.TwitterFlex {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial;
+}
+
+.TwitterImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.TwitterContent {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.TwitterNameAndHandleFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.TwitterName {
+  font-weight: bold;
+}
+
+.TwitterHandle{
+  color: rgb(139, 139, 139);
+  margin-left: 5px;
+}
+
+.Tweet{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.TwitterVideo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  border-radius: 10px;
+}
+
+.TwitterUnloadedVideo{
+  width: 80px;
+  height: 87px;
+  background-color: rgb(228, 228, 228);
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+.TwitterVideoInfo {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.TwitterYouTubeSite {
+  color: rgb(139, 139, 139);
+  margin-bottom: 5px;
+}
