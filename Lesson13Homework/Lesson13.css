@@ -1,0 +1,102 @@
+p {
+  margin: 0;
+}
+
+.bigflex1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex200{
+  background-color: lightpink;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.p1 {
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.innerdiv {
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1 {
+  margin-bottom: -15px;
+  padding-top: 5px;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.containerstyle {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  font-family: Arial;
+}
+
+.GmailTitle {
+  color: rgb(148, 147, 147);
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.GmailEntryFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.GmailImg {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.GmailInfo {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.GmailNameAndTimeFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.GmailName {
+  font-weight: bold;
+  flex: 1;
+}
+
+.GmailTime {
+  font-size: 15px;
+  color: rgb(148, 147, 147);
+}
+
+.GmailSubject {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.GmailContent {
+  font-size: 15px;
+  color: rgb(148, 147, 147);
+}
