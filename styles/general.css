@@ -1,15 +1,16 @@
-p {
-    font-family: Roboto, Arial;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 body {
+    /*This stype below will be inherited*/
+    font-family: Roboto, Arial;
     margin: 0px;
     margin-bottom: 1000px;
     padding-top: 80px;
     padding-left: 95px;
     padding-right: 25px;
     background-color: rgb(247, 247, 247);
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 a {
     color: black;
