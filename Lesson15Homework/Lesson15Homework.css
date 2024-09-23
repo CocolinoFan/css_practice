@@ -1,0 +1,97 @@
+.close-button-15a {
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    font-weight: bold;
+    right: 30px;
+    top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.b15Fixed {
+    height: 180px;
+    width: 320px;
+    background-color: gray;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.close-button-15b {
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-family: Arial;
+    font-weight: bold;
+    left: -20px;
+    top: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.time {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    font-family: Arial;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.image-discount{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+
+.cart-container {
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart-button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: white;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
