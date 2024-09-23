@@ -11,3 +11,7 @@ body {
     padding-right: 25px;
     background-color: rgb(247, 247, 247);
 }
+a {
+    color: black;
+    text-decoration: none;
+}
